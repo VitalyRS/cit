@@ -1,1 +1,1 @@
-# eeglab-mne
+# CIT scripts
