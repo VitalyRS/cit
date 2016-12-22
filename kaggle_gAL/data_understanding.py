@@ -1,7 +1,9 @@
 
 # coding: utf-8
 
-# In[61]:
+# https://www.kaggle.com/c/grasp-and-lift-eeg-detection
+
+# In[1]:
 
 import pandas as pd
 import os 
@@ -70,17 +72,17 @@ def convert_to_py():
     convertNotebook(notebookPath,modulePath)
 
 
-# In[62]:
+# In[2]:
 
 convert_to_py()
 
 
-# In[63]:
+# In[3]:
 
 folder="/home/vitaly/anaconda2/vit/DATA/GAL/train"
 
 
-# In[64]:
+# In[12]:
 
 
 class DataManipulation(object):
@@ -146,12 +148,13 @@ class DataManipulation(object):
             return pd.read_csv(self.folder_name+"/"+self.bd.file_data[numero])
         else: # reading events file
             return pd.read_csv(self.folder_name+"/"+self.bd.file_events[numero])
-    def read_and_norm(self,numero=0,log=0,fres=50,fr1=1,fr2=24):
-        #numero
-        #log
-        #fres
-        #fr1
-        #fr2
+    def read_and_norm_data(self,numero=0,fres=50,fr1=1,fr2=24):
+        #numero of file to be read
+        #log 0 is data 1 is events
+        #fres resampling frequency
+        #fr1 first freq º
+        #fr2 s2 freq
+        log=0
         data=self.read_file(numero,log)
         data=data.values[:,1:]
         info = mne.create_info(  ch_names=self.__ch_names,       sfreq=self.__sfreq    )
@@ -170,6 +173,33 @@ class DataManipulation(object):
         data.filter(fr1,fr2,h_trans_bandwidth='auto', filter_length='auto',
                phase='zero',verbose=None)
         return data
+    def read_and_norm_events(self,numero=0,fres=50,fr1=1,fr2=24):
+        #numero of file to be read
+        #log 0 is data 1 is events
+        #fres resampling frequency
+        #fr1 first freq º
+        #fr2 s2 freq
+        log=1
+        data=self.read_file(numero,log)
+        data=data.values[:,1:]
+        
+        info = mne.create_info(  ch_names=self.__ch_names,       sfreq=self.__sfreq    )
+        data = mne.io.RawArray(data.T, info,verbose=False)
+        
+        for names in data.ch_names:
+            data.set_channel_types({names:'eeg'})
+        
+        montage = mne.channels.read_montage('standard_1020')
+        data.set_montage(montage,verbose=None)
+        clear_output()
+        
+        
+        data, _ = mne.io.set_eeg_reference(data) # again average rereference
+        data.resample(fres, npad="auto",verbose=None)  # set sampling frequency to 145Hz
+        data.filter(fr1,fr2,h_trans_bandwidth='auto', filter_length='auto',
+               phase='zero',verbose=None)
+        return data
+    
         
 
 d=DataManipulation(folder)
@@ -177,15 +207,25 @@ print d.N
 
 
 
-# In[65]:
+# In[13]:
 
 data=d.read_and_norm()
 
 
-# In[66]:
+# In[6]:
 
 data.plot(scalings="auto")#, duration=80.0)
 plt.show()
+
+
+# In[11]:
+
+data.load_data()
+
+
+# In[8]:
+
+d.read_file(0,1)
 
 
 # In[ ]:
