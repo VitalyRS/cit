@@ -1,18 +1,27 @@
 
 # coding: utf-8
 
-# In[13]:
+# In[61]:
 
 import pandas as pd
 import os 
 import time
 import sys
 import re
-get_ipython().magic(u'matplotlib inline')
 import matplotlib.pyplot as plt
+from IPython.display import clear_output
+import mne
+import nbformat
+from IPython.lib import kernel
+from nbconvert import PythonExporter
+import json
+import urllib2
+
+get_ipython().magic(u'matplotlib inline')
+
 #https://www.kaggle.com/c/grasp-and-lift-eeg-detection
 #the *_data.csv files contain the raw 32 channels EEG data (sampling rate 500Hz)
-from IPython.display import clear_output
+
 def update_progress(progress):
     barLength = 10 # Modify this to change the length of the progress bar
     status = ""
@@ -31,41 +40,47 @@ def update_progress(progress):
     text = "\rPercent: [{0}] {1}% {2}".format( "#"*block + "-"*(barLength-block), progress*100, status)
     sys.stdout.write(text)
     sys.stdout.flush()
-import mne
+def convertNotebook(notebookPath, modulePath):
+    with open(notebookPath) as fh:
+        nb = nbformat.reads(fh.read(), nbformat.NO_CONVERT)
+
+    exporter = PythonExporter()
+    source, meta = exporter.from_notebook_node(nb)
+
+    with open(modulePath, 'w+') as fh:
+        fh.writelines(source.encode('utf-8'))
+
+def convert_to_py():
+    connection_file_path = kernel.get_connection_file()
+    connection_file = os.path.basename(connection_file_path)
+    kernel_id = connection_file.split('-', 1)[1].split('.')[0]
+    sessions = json.load(urllib2.urlopen('http://127.0.0.1:8888/api/sessions'))
+    for sess in sessions:
+        if sess['kernel']['id'] == kernel_id:
+            file_out=sess['notebook']
+            break
+        
+    file_out1=file_out["path"]
+
+    pattern=u"/\w*.ipynb"
+    ipython_name=re.findall(pattern,file_out1)[0][1:]
+    
+    notebookPath = ipython_name
+    modulePath= notebookPath[:-6]+".py"
+    convertNotebook(notebookPath,modulePath)
 
 
-# In[3]:
+# In[62]:
+
+convert_to_py()
+
+
+# In[63]:
 
 folder="/home/vitaly/anaconda2/vit/DATA/GAL/train"
-f1="subj1_series1_data.csv"
-f2="subj1_series1_events.csv"
-f1=folder+"/"+f1
-f2=folder+"/"+f2
 
 
-# In[ ]:
-
-allfiles=" ".join(os.listdir(folder))
-import re
-pattern=u"\S+events\S+"
-files_events=re.findall(pattern,allfiles)
-pattern=u"\S+data\S+"
-files_data=re.findall(pattern,allfiles)
-print len(files_data)
-files_events
-pattern=u"\d*_series\d*"
-files_data=re.findall(pattern,allfiles)
-files_data
-print len(set(files_data))
-tt=list(set(files_data))
-#'subj7_series1_events.csv', 'subj8_series3_data.csv'),
-f1=map(lambda x:"subj"+x+"_events.csv",tt)
-f2=map(lambda x:"subj"+x+"_data.csv",tt)
-data={"file_events":f1,"file_data":f2}
-pd.DataFrame(data)
-
-
-# In[42]:
+# In[64]:
 
 
 class DataManipulation(object):
@@ -162,117 +177,15 @@ print d.N
 
 
 
-# In[45]:
+# In[65]:
 
 data=d.read_and_norm()
 
 
-# In[5]:
-
-bd=d.read_file(0,0)
-bd.head()
-
-
-# In[9]:
-
-list(bd.columns[1:])
-ch_names=['Fp1', 'Fp2', 'F7', 'F3', 'Fz', 'F4', 'F8', 'FC5', 'FC1', 'FC2', 'FC6', 'T7', 'C3', 'Cz', 'C4',
- 'T8', 'TP9', 'CP5', 'CP1', 'CP2', 'CP6', 'TP10', 'P7', 'P3', 'Pz', 'P4', 'P8', 'PO9', 'O1', 'Oz', 'O2', 'PO10']
-data=bd.values[:,1:]
-
-
-# In[10]:
-
-print "16 channels"
-sfreq=500
-info = mne.create_info(
-ch_names=ch_names,
-sfreq=sfreq
-    )
-
-custom_raw = mne.io.RawArray(data.T, info,verbose=False)
-
-data=custom_raw
-
-for names in data.ch_names:
-    data.set_channel_types({names:'eeg'})
-        
-montage = mne.channels.read_montage('standard_1020')
-data.set_montage(montage,verbose=None)
-clear_output()
-
-
-# In[46]:
+# In[66]:
 
 data.plot(scalings="auto")#, duration=80.0)
 plt.show()
-
-
-# In[49]:
-
-data.plot_projs_topomap()
-
-
-# In[ ]:
-
-def create_mne_data(data,sfreq):
-    print "16 channels"
-    info = mne.create_info(
-    ch_names=['Fp1','Fpz', 'Fp2', 'F7', 'F3', 'Fz',
-             'F4', 'F8', 'T3', 'C3', 'Cz',
-             'C4', 'T4', 'P3', 'Pz', 'P4'],
-    sfreq=sfreq
-    )
-
-    custom_raw = mne.io.RawArray(data.T, info,verbose=False)
-
-    data=custom_raw
-
-    for names in data.ch_names:
-        data.set_channel_types({names:'eeg'})
-        
-    montage = mne.channels.read_montage('standard_1020')
-    data.set_montage(montage,verbose=None)
-    return data
-def data_norm(data,fres,fr1,fr2):
-    data, _ = mne.io.set_eeg_reference(data) # again average rereference
-    data.resample(fres, npad="auto",verbose=None)  # set sampling frequency to 145Hz
-    data.filter(fr1,fr2,h_trans_bandwidth='auto', filter_length='auto',
-           phase='zero',verbose=None)
-#    data.notch_filter(50, filter_length='auto',
-#                 phase='zero')
-    return data
-
-
-# In[ ]:
-
-map(lambda x:pd.read_csv(d.folder_name+"/"+x),bd.file_data)
-
-
-# In[ ]:
-
-map(lambda x:pd.read_csv(d.folder_name+"/"+x),bd.file_events)
-
-
-# In[ ]:
-
-bdf1=pd.read_csv(f1)
-bdf2=pd.read_csv(f2)
-
-
-# In[ ]:
-
-bdf1.head()
-
-
-# In[ ]:
-
-bdf1.columns
-
-
-# In[ ]:
-
-bdf2.head()
 
 
 # In[ ]:
