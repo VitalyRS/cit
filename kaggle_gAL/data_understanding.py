@@ -72,7 +72,7 @@ def convert_to_py():
     convertNotebook(notebookPath,modulePath)
 
 
-# In[2]:
+# In[20]:
 
 convert_to_py()
 
@@ -82,7 +82,7 @@ convert_to_py()
 folder="/home/vitaly/anaconda2/vit/DATA/GAL/train"
 
 
-# In[12]:
+# In[17]:
 
 
 class DataManipulation(object):
@@ -173,7 +173,7 @@ class DataManipulation(object):
         data.filter(fr1,fr2,h_trans_bandwidth='auto', filter_length='auto',
                phase='zero',verbose=None)
         return data
-    def read_and_norm_events(self,numero=0,fres=50,fr1=1,fr2=24):
+    def read_and_norm_events(self,numero=0,fres=50):
         #numero of file to be read
         #log 0 is data 1 is events
         #fres resampling frequency
@@ -182,22 +182,16 @@ class DataManipulation(object):
         log=1
         data=self.read_file(numero,log)
         data=data.values[:,1:]
-        
-        info = mne.create_info(  ch_names=self.__ch_names,       sfreq=self.__sfreq    )
+        ch_names=["HandStart","FirstDigitTouch","BothStartLoadPhase","LiftOff","Replace","BothReleased"]
+        info = mne.create_info(  ch_names=ch_names,       sfreq=self.__sfreq    )
         data = mne.io.RawArray(data.T, info,verbose=False)
         
-        for names in data.ch_names:
-            data.set_channel_types({names:'eeg'})
-        
-        montage = mne.channels.read_montage('standard_1020')
-        data.set_montage(montage,verbose=None)
         clear_output()
         
         
-        data, _ = mne.io.set_eeg_reference(data) # again average rereference
+        
         data.resample(fres, npad="auto",verbose=None)  # set sampling frequency to 145Hz
-        data.filter(fr1,fr2,h_trans_bandwidth='auto', filter_length='auto',
-               phase='zero',verbose=None)
+        
         return data
     
         
@@ -207,15 +201,26 @@ print d.N
 
 
 
-# In[13]:
+# In[23]:
 
-data=d.read_and_norm()
+data_events=d.read_and_norm_data()
+data_data=d.read_and_norm_events()
 
 
-# In[6]:
+# In[24]:
 
-data.plot(scalings="auto")#, duration=80.0)
+data_events.plot(scalings="auto")#, duration=80.0)
+data_data.plot(scalings="auto")#, duration=80.0)
 plt.show()
+
+
+# In[35]:
+
+import numpy as np
+freqs = np.arange(6, 25, 3)  # define frequencies of interest
+n_cycles = freqs / 2.  # different number of cycle per frequency
+power, itc = mne.time_frequency.tfr_morlet(data_data, freqs=freqs, n_cycles=n_cycles, use_fft=True,
+                        return_itc=True, decim=3, n_jobs=1)
 
 
 # In[11]:
