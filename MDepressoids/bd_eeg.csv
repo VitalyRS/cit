@@ -1,0 +1,617 @@
+,a2,filename,format,head,name
+0,2016,Bezm 30_08_2016.eeg                                                             ,eeg,0,bezm
+1,2016,Bezm 30_08_2016.vhdr                                                            ,vhdr,0,bezm
+2,2016,Bezm 30_08_2016.vmrk                                                            ,vmrk,0,bezm
+3,2,Bezm 30_08_2016_2.eeg                                                           ,eeg,0,bezm
+4,2,Bezm 30_08_2016_2.vhdr                                                          ,vhdr,0,bezm
+5,2,Bezm 30_08_2016_2.vmrk                                                          ,vmrk,0,bezm
+6,t1,Bezm 30_08_2016_t1.eeg                                                          ,eeg,0,bezm
+7,t1,Bezm 30_08_2016_t1.vhdr                                                         ,vhdr,0,bezm
+8,t1,Bezm 30_08_2016_t1.vmrk                                                         ,vmrk,0,bezm
+9,t2,Bezm 30_08_2016_t2.eeg                                                          ,eeg,0,bezm
+10,t2,Bezm 30_08_2016_t2.vhdr                                                         ,vhdr,0,bezm
+11,t2,Bezm 30_08_2016_t2.vmrk                                                         ,vmrk,0,bezm
+12,t3,Bezm 30_08_2016_t3.eeg                                                          ,eeg,0,bezm
+13,t3,Bezm 30_08_2016_t3.vhdr                                                         ,vhdr,0,bezm
+14,t3,Bezm 30_08_2016_t3.vmrk                                                         ,vmrk,0,bezm
+15,t32,Bezm 30_08_2016_t32.eeg                                                         ,eeg,0,bezm
+16,t32,Bezm 30_08_2016_t32.vhdr                                                        ,vhdr,0,bezm
+17,t32,Bezm 30_08_2016_t32.vmrk                                                        ,vmrk,0,bezm
+18,t1,Efremov 31_08_2016_t1.eeg                                                       ,eeg,0,efremov
+19,t1,Efremov 31_08_2016_t1.vhdr                                                      ,vhdr,0,efremov
+20,t1,Efremov 31_08_2016_t1.vmrk                                                      ,vmrk,0,efremov
+21,t2,Efremov 31_08_2016_t2.eeg                                                       ,eeg,0,efremov
+22,t2,Efremov 31_08_2016_t2.vhdr                                                      ,vhdr,0,efremov
+23,t2,Efremov 31_08_2016_t2.vmrk                                                      ,vmrk,0,efremov
+24,t3,Efremov 31_08_2016_t3.eeg                                                       ,eeg,0,efremov
+25,t3,Efremov 31_08_2016_t3.vhdr                                                      ,vhdr,0,efremov
+26,t3,Efremov 31_08_2016_t3.vmrk                                                      ,vmrk,0,efremov
+27,fon,Kalachina 30_09_2016_fon.eeg                                                    ,eeg,0,kalachina
+28,fon,Kalachina 30_09_2016_fon.vhdr                                                   ,vhdr,0,kalachina
+29,fon,Kalachina 30_09_2016_fon.vmrk                                                   ,vmrk,0,kalachina
+30,t1,Kalachina 30_09_2016_t1.eeg                                                     ,eeg,0,kalachina
+31,t1,Kalachina 30_09_2016_t1.vhdr                                                    ,vhdr,0,kalachina
+32,t1,Kalachina 30_09_2016_t1.vmrk                                                    ,vmrk,0,kalachina
+33,t2,Kalachina 30_09_2016_t2.eeg                                                     ,eeg,0,kalachina
+34,t2,Kalachina 30_09_2016_t2.vhdr                                                    ,vhdr,0,kalachina
+35,t2,Kalachina 30_09_2016_t2.vmrk                                                    ,vmrk,0,kalachina
+36,t3,Kalachina 30_09_2016_t3.eeg                                                     ,eeg,0,kalachina
+37,t3,Kalachina 30_09_2016_t3.vhdr                                                    ,vhdr,0,kalachina
+38,t3,Kalachina 30_09_2016_t3.vmrk                                                    ,vmrk,0,kalachina
+39,untitled,Untitled.eeg                                                                    ,eeg,0,0
+40,untitled,Untitled.vhdr                                                                   ,vhdr,0,0
+41,untitled,Untitled.vmrk                                                                   ,vmrk,0,0
+42,fon,Zaripova 31_08_2016_fon.eeg                                                     ,eeg,0,zaripova
+43,fon,Zaripova 31_08_2016_fon.vhdr                                                    ,vhdr,0,zaripova
+44,fon,Zaripova 31_08_2016_fon.vmrk                                                    ,vmrk,0,zaripova
+45,2016,gr1_German_12_10_2016.eeg                                                       ,eeg,gr1,german
+46,2016,gr1_German_12_10_2016.vhdr                                                      ,vhdr,gr1,german
+47,2016,gr1_German_12_10_2016.vmrk                                                      ,vmrk,gr1,german
+48,t1,gr1_German_12_10_2016_t1.eeg                                                    ,eeg,gr1,german
+49,t1,gr1_German_12_10_2016_t1.vhdr                                                   ,vhdr,gr1,german
+50,t1,gr1_German_12_10_2016_t1.vmrk                                                   ,vmrk,gr1,german
+51,t2,gr1_German_12_10_2016_t2.eeg                                                    ,eeg,gr1,german
+52,t2,gr1_German_12_10_2016_t2.vhdr                                                   ,vhdr,gr1,german
+53,t2,gr1_German_12_10_2016_t2.vmrk                                                   ,vmrk,gr1,german
+54,t3,gr1_German_12_10_2016_t3.eeg                                                    ,eeg,gr1,german
+55,t3,gr1_German_12_10_2016_t3.vhdr                                                   ,vhdr,gr1,german
+56,t3,gr1_German_12_10_2016_t3.vmrk                                                   ,vmrk,gr1,german
+57,fon,gr1_Mihaleva_12_10_2016_fon.eeg                                                 ,eeg,gr1,mihaleva
+58,fon,gr1_Mihaleva_12_10_2016_fon.vhdr                                                ,vhdr,gr1,mihaleva
+59,fon,gr1_Mihaleva_12_10_2016_fon.vmrk                                                ,vmrk,gr1,mihaleva
+60,t1,gr1_Mihaleva_12_10_2016_t1.eeg                                                  ,eeg,gr1,mihaleva
+61,t1,gr1_Mihaleva_12_10_2016_t1.vhdr                                                 ,vhdr,gr1,mihaleva
+62,t1,gr1_Mihaleva_12_10_2016_t1.vmrk                                                 ,vmrk,gr1,mihaleva
+63,t2,gr1_Mihaleva_12_10_2016_t2.eeg                                                  ,eeg,gr1,mihaleva
+64,t2,gr1_Mihaleva_12_10_2016_t2.vhdr                                                 ,vhdr,gr1,mihaleva
+65,t2,gr1_Mihaleva_12_10_2016_t2.vmrk                                                 ,vmrk,gr1,mihaleva
+66,t3,gr1_Mihaleva_12_10_2016_t3.eeg                                                  ,eeg,gr1,mihaleva
+67,t3,gr1_Mihaleva_12_10_2016_t3.vhdr                                                 ,vhdr,gr1,mihaleva
+68,t3,gr1_Mihaleva_12_10_2016_t3.vmrk                                                 ,vmrk,gr1,mihaleva
+69,fon,gr2_Alesenko_20_09_2016_fon.eeg                                                 ,eeg,gr2,alesenko
+70,fon,gr2_Alesenko_20_09_2016_fon.vhdr                                                ,vhdr,gr2,alesenko
+71,fon,gr2_Alesenko_20_09_2016_fon.vmrk                                                ,vmrk,gr2,alesenko
+72,t1,gr2_Alesenko_20_09_2016_t1.eeg                                                  ,eeg,gr2,alesenko
+73,t1,gr2_Alesenko_20_09_2016_t1.vhdr                                                 ,vhdr,gr2,alesenko
+74,t1,gr2_Alesenko_20_09_2016_t1.vmrk                                                 ,vmrk,gr2,alesenko
+75,t2,gr2_Alesenko_20_09_2016_t2.eeg                                                  ,eeg,gr2,alesenko
+76,t2,gr2_Alesenko_20_09_2016_t2.vhdr                                                 ,vhdr,gr2,alesenko
+77,t2,gr2_Alesenko_20_09_2016_t2.vmrk                                                 ,vmrk,gr2,alesenko
+78,t3,gr2_Alesenko_20_09_2016_t3.eeg                                                  ,eeg,gr2,alesenko
+79,t3,gr2_Alesenko_20_09_2016_t3.vhdr                                                 ,vhdr,gr2,alesenko
+80,t3,gr2_Alesenko_20_09_2016_t3.vmrk                                                 ,vmrk,gr2,alesenko
+81,2016,gr2_Fatyanova_18_10_2016.eeg                                                    ,eeg,gr2,fatyanova
+82,2016,gr2_Fatyanova_18_10_2016.vhdr                                                   ,vhdr,gr2,fatyanova
+83,2016,gr2_Fatyanova_18_10_2016.vmrk                                                   ,vmrk,gr2,fatyanova
+84,t1,gr2_Fatyanova_18_10_2016_t1.eeg                                                 ,eeg,gr2,fatyanova
+85,t1,gr2_Fatyanova_18_10_2016_t1.vhdr                                                ,vhdr,gr2,fatyanova
+86,t1,gr2_Fatyanova_18_10_2016_t1.vmrk                                                ,vmrk,gr2,fatyanova
+87,t2,gr2_Fatyanova_18_10_2016_t2.eeg                                                 ,eeg,gr2,fatyanova
+88,t2,gr2_Fatyanova_18_10_2016_t2.vhdr                                                ,vhdr,gr2,fatyanova
+89,t2,gr2_Fatyanova_18_10_2016_t2.vmrk                                                ,vmrk,gr2,fatyanova
+90,t3,gr2_Fatyanova_18_10_2016_t3.eeg                                                 ,eeg,gr2,fatyanova
+91,t3,gr2_Fatyanova_18_10_2016_t3.vhdr                                                ,vhdr,gr2,fatyanova
+92,t3,gr2_Fatyanova_18_10_2016_t3.vmrk                                                ,vmrk,gr2,fatyanova
+93,fon,gr2_Homik 24_10_2016_fon.eeg                                                    ,eeg,gr2,homik
+94,fon,gr2_Homik 24_10_2016_fon.vhdr                                                   ,vhdr,gr2,homik
+95,fon,gr2_Homik 24_10_2016_fon.vmrk                                                   ,vmrk,gr2,homik
+96,t1,gr2_Homik 24_10_2016_t1.eeg                                                     ,eeg,gr2,homik
+97,t1,gr2_Homik 24_10_2016_t1.vhdr                                                    ,vhdr,gr2,homik
+98,t1,gr2_Homik 24_10_2016_t1.vmrk                                                    ,vmrk,gr2,homik
+99,t2,gr2_Homik 24_10_2016_t2.eeg                                                     ,eeg,gr2,homik
+100,t2,gr2_Homik 24_10_2016_t2.vhdr                                                    ,vhdr,gr2,homik
+101,t2,gr2_Homik 24_10_2016_t2.vmrk                                                    ,vmrk,gr2,homik
+102,t3,gr2_Homik 24_10_2016_t3.eeg                                                     ,eeg,gr2,homik
+103,t3,gr2_Homik 24_10_2016_t3.vhdr                                                    ,vhdr,gr2,homik
+104,t3,gr2_Homik 24_10_2016_t3.vmrk                                                    ,vmrk,gr2,homik
+105,fon,gr2_Ionnikov 21_10_2016_fon.eeg                                                 ,eeg,gr2,ionnikov
+106,fon,gr2_Ionnikov 21_10_2016_fon.vhdr                                                ,vhdr,gr2,ionnikov
+107,fon,gr2_Ionnikov 21_10_2016_fon.vmrk                                                ,vmrk,gr2,ionnikov
+108,t1,gr2_Ionnikov 21_10_2016_t1.eeg                                                  ,eeg,gr2,ionnikov
+109,t1,gr2_Ionnikov 21_10_2016_t1.vhdr                                                 ,vhdr,gr2,ionnikov
+110,t1,gr2_Ionnikov 21_10_2016_t1.vmrk                                                 ,vmrk,gr2,ionnikov
+111,t2,gr2_Ionnikov 21_10_2016_t2.eeg                                                  ,eeg,gr2,ionnikov
+112,t2,gr2_Ionnikov 21_10_2016_t2.vhdr                                                 ,vhdr,gr2,ionnikov
+113,t2,gr2_Ionnikov 21_10_2016_t2.vmrk                                                 ,vmrk,gr2,ionnikov
+114,t3,gr2_Ionnikov 21_10_2016_t3.eeg                                                  ,eeg,gr2,ionnikov
+115,t3,gr2_Ionnikov 21_10_2016_t3.vhdr                                                 ,vhdr,gr2,ionnikov
+116,t3,gr2_Ionnikov 21_10_2016_t3.vmrk                                                 ,vmrk,gr2,ionnikov
+117,fon,gr2_Kairbekov_15_10_2016_fon.eeg                                                ,eeg,gr2,kairbekov
+118,fon,gr2_Kairbekov_15_10_2016_fon.vhdr                                               ,vhdr,gr2,kairbekov
+119,fon,gr2_Kairbekov_15_10_2016_fon.vmrk                                               ,vmrk,gr2,kairbekov
+120,t1,gr2_Kairbekov_15_10_2016_t1.eeg                                                 ,eeg,gr2,kairbekov
+121,t1,gr2_Kairbekov_15_10_2016_t1.vhdr                                                ,vhdr,gr2,kairbekov
+122,t1,gr2_Kairbekov_15_10_2016_t1.vmrk                                                ,vmrk,gr2,kairbekov
+123,t2,gr2_Kairbekov_15_10_2016_t2.eeg                                                 ,eeg,gr2,kairbekov
+124,t2,gr2_Kairbekov_15_10_2016_t2.vhdr                                                ,vhdr,gr2,kairbekov
+125,t2,gr2_Kairbekov_15_10_2016_t2.vmrk                                                ,vmrk,gr2,kairbekov
+126,t3,gr2_Kairbekov_15_10_2016_t3.eeg                                                 ,eeg,gr2,kairbekov
+127,t3,gr2_Kairbekov_15_10_2016_t3.vhdr                                                ,vhdr,gr2,kairbekov
+128,t3,gr2_Kairbekov_15_10_2016_t3.vmrk                                                ,vmrk,gr2,kairbekov
+129,t2,gr2_Kalachina 30_09_2016_t2.eeg                                                 ,eeg,gr2,kalachina
+130,t2,gr2_Kalachina 30_09_2016_t2.vhdr                                                ,vhdr,gr2,kalachina
+131,t2,gr2_Kalachina 30_09_2016_t2.vmrk                                                ,vmrk,gr2,kalachina
+132,t3,gr2_Kalachina 30_09_2016_t3.eeg                                                 ,eeg,gr2,kalachina
+133,t3,gr2_Kalachina 30_09_2016_t3.vhdr                                                ,vhdr,gr2,kalachina
+134,t3,gr2_Kalachina 30_09_2016_t3.vmrk                                                ,vmrk,gr2,kalachina
+135,fon,gr2_Kostushina 05_10_2016_fon.eeg                                               ,eeg,gr2,kostushina
+136,fon,gr2_Kostushina 05_10_2016_fon.vhdr                                              ,vhdr,gr2,kostushina
+137,fon,gr2_Kostushina 05_10_2016_fon.vmrk                                              ,vmrk,gr2,kostushina
+138,t1,gr2_Kostushina 05_10_2016_t1.eeg                                                ,eeg,gr2,kostushina
+139,t1,gr2_Kostushina 05_10_2016_t1.vhdr                                               ,vhdr,gr2,kostushina
+140,t1,gr2_Kostushina 05_10_2016_t1.vmrk                                               ,vmrk,gr2,kostushina
+141,fon,gr2_Kraynak_13_10_2016_fon.eeg                                                  ,eeg,gr2,kraynak
+142,fon,gr2_Kraynak_13_10_2016_fon.vhdr                                                 ,vhdr,gr2,kraynak
+143,fon,gr2_Kraynak_13_10_2016_fon.vmrk                                                 ,vmrk,gr2,kraynak
+144,t1,gr2_Kraynak_13_10_2016_t1.eeg                                                   ,eeg,gr2,kraynak
+145,t1,gr2_Kraynak_13_10_2016_t1.vhdr                                                  ,vhdr,gr2,kraynak
+146,t1,gr2_Kraynak_13_10_2016_t1.vmrk                                                  ,vmrk,gr2,kraynak
+147,t2,gr2_Kraynak_13_10_2016_t2.eeg                                                   ,eeg,gr2,kraynak
+148,t2,gr2_Kraynak_13_10_2016_t2.vhdr                                                  ,vhdr,gr2,kraynak
+149,t2,gr2_Kraynak_13_10_2016_t2.vmrk                                                  ,vmrk,gr2,kraynak
+150,t3,gr2_Kraynak_13_10_2016_t3.eeg                                                   ,eeg,gr2,kraynak
+151,t3,gr2_Kraynak_13_10_2016_t3.vhdr                                                  ,vhdr,gr2,kraynak
+152,t3,gr2_Kraynak_13_10_2016_t3.vmrk                                                  ,vmrk,gr2,kraynak
+153,fon,gr2_Melihova 21_10_2016_fon.eeg                                                 ,eeg,gr2,melihova
+154,fon,gr2_Melihova 21_10_2016_fon.vhdr                                                ,vhdr,gr2,melihova
+155,fon,gr2_Melihova 21_10_2016_fon.vmrk                                                ,vmrk,gr2,melihova
+156,t1,gr2_Melihova 21_10_2016_t1.eeg                                                  ,eeg,gr2,melihova
+157,t1,gr2_Melihova 21_10_2016_t1.vhdr                                                 ,vhdr,gr2,melihova
+158,t1,gr2_Melihova 21_10_2016_t1.vmrk                                                 ,vmrk,gr2,melihova
+159,t2,gr2_Melihova 21_10_2016_t2.eeg                                                  ,eeg,gr2,melihova
+160,t2,gr2_Melihova 21_10_2016_t2.vhdr                                                 ,vhdr,gr2,melihova
+161,t2,gr2_Melihova 21_10_2016_t2.vmrk                                                 ,vmrk,gr2,melihova
+162,t3,gr2_Melihova 21_10_2016_t3.eeg                                                  ,eeg,gr2,melihova
+163,t3,gr2_Melihova 21_10_2016_t3.vhdr                                                 ,vhdr,gr2,melihova
+164,t3,gr2_Melihova 21_10_2016_t3.vmrk                                                 ,vmrk,gr2,melihova
+165,fon,gr2_Sarygina_19_09_2016_fon.eeg                                                 ,eeg,gr2,sarygina
+166,fon,gr2_Sarygina_19_09_2016_fon.vhdr                                                ,vhdr,gr2,sarygina
+167,fon,gr2_Sarygina_19_09_2016_fon.vmrk                                                ,vmrk,gr2,sarygina
+168,t1,gr2_Sarygina_19_09_2016_t1.eeg                                                  ,eeg,gr2,sarygina
+169,t1,gr2_Sarygina_19_09_2016_t1.vhdr                                                 ,vhdr,gr2,sarygina
+170,t1,gr2_Sarygina_19_09_2016_t1.vmrk                                                 ,vmrk,gr2,sarygina
+171,t2,gr2_Sarygina_19_09_2016_t2.eeg                                                  ,eeg,gr2,sarygina
+172,t2,gr2_Sarygina_19_09_2016_t2.vhdr                                                 ,vhdr,gr2,sarygina
+173,t2,gr2_Sarygina_19_09_2016_t2.vmrk                                                 ,vmrk,gr2,sarygina
+174,t3,gr2_Sarygina_19_09_2016_t3.eeg                                                  ,eeg,gr2,sarygina
+175,t3,gr2_Sarygina_19_09_2016_t3.vhdr                                                 ,vhdr,gr2,sarygina
+176,t3,gr2_Sarygina_19_09_2016_t3.vmrk                                                 ,vmrk,gr2,sarygina
+177,2016,gr2_Sviridova 25_10_2016.eeg                                                    ,eeg,gr2,sviridova
+178,2016,gr2_Sviridova 25_10_2016.vhdr                                                   ,vhdr,gr2,sviridova
+179,2016,gr2_Sviridova 25_10_2016.vmrk                                                   ,vmrk,gr2,sviridova
+180,t1,gr2_Sviridova 25_10_2016_t1.eeg                                                 ,eeg,gr2,sviridova
+181,t1,gr2_Sviridova 25_10_2016_t1.vhdr                                                ,vhdr,gr2,sviridova
+182,t1,gr2_Sviridova 25_10_2016_t1.vmrk                                                ,vmrk,gr2,sviridova
+183,t2,gr2_Sviridova 25_10_2016_t2.eeg                                                 ,eeg,gr2,sviridova
+184,t2,gr2_Sviridova 25_10_2016_t2.vhdr                                                ,vhdr,gr2,sviridova
+185,t2,gr2_Sviridova 25_10_2016_t2.vmrk                                                ,vmrk,gr2,sviridova
+186,t3,gr2_Sviridova 25_10_2016_t3.eeg                                                 ,eeg,gr2,sviridova
+187,t3,gr2_Sviridova 25_10_2016_t3.vhdr                                                ,vhdr,gr2,sviridova
+188,t3,gr2_Sviridova 25_10_2016_t3.vmrk                                                ,vmrk,gr2,sviridova
+189,2016,gr2_Vahmistrova 24_10_2016.eeg                                                  ,eeg,gr2,vahmistrova
+190,2016,gr2_Vahmistrova 24_10_2016.vhdr                                                 ,vhdr,gr2,vahmistrova
+191,2016,gr2_Vahmistrova 24_10_2016.vmrk                                                 ,vmrk,gr2,vahmistrova
+192,3,gr2_Vahmistrova 24_10_2016_3.eeg                                                ,eeg,gr2,vahmistrova
+193,3,gr2_Vahmistrova 24_10_2016_3.vhdr                                               ,vhdr,gr2,vahmistrova
+194,3,gr2_Vahmistrova 24_10_2016_3.vmrk                                               ,vmrk,gr2,vahmistrova
+195,t1,gr2_Vahmistrova 24_10_2016_t1.eeg                                               ,eeg,gr2,vahmistrova
+196,t1,gr2_Vahmistrova 24_10_2016_t1.vhdr                                              ,vhdr,gr2,vahmistrova
+197,t1,gr2_Vahmistrova 24_10_2016_t1.vmrk                                              ,vmrk,gr2,vahmistrova
+198,t2,gr2_Vahmistrova 24_10_2016_t2.eeg                                               ,eeg,gr2,vahmistrova
+199,t2,gr2_Vahmistrova 24_10_2016_t2.vhdr                                              ,vhdr,gr2,vahmistrova
+200,t2,gr2_Vahmistrova 24_10_2016_t2.vmrk                                              ,vmrk,gr2,vahmistrova
+201,fon,gr2_buchan  7_10_2016_fon.eeg                                                   ,eeg,gr2,buchan
+202,fon,gr2_buchan  7_10_2016_fon.vhdr                                                  ,vhdr,gr2,buchan
+203,fon,gr2_buchan  7_10_2016_fon.vmrk                                                  ,vmrk,gr2,buchan
+204,t1,gr2_buchan  7_10_2016_t1.eeg                                                    ,eeg,gr2,buchan
+205,t1,gr2_buchan  7_10_2016_t1.vhdr                                                   ,vhdr,gr2,buchan
+206,t1,gr2_buchan  7_10_2016_t1.vmrk                                                   ,vmrk,gr2,buchan
+207,t2,gr2_buchan  7_10_2016_t2.eeg                                                    ,eeg,gr2,buchan
+208,t2,gr2_buchan  7_10_2016_t2.vhdr                                                   ,vhdr,gr2,buchan
+209,t2,gr2_buchan  7_10_2016_t2.vmrk                                                   ,vmrk,gr2,buchan
+210,t3,gr2_buchan  7_10_2016_t3.eeg                                                    ,eeg,gr2,buchan
+211,t3,gr2_buchan  7_10_2016_t3.vhdr                                                   ,vhdr,gr2,buchan
+212,t3,gr2_buchan  7_10_2016_t3.vmrk                                                   ,vmrk,gr2,buchan
+213,fon,gr2_chygainov 04_10_2016_fon.eeg                                                ,eeg,gr2,chygainov
+214,fon,gr2_chygainov 04_10_2016_fon.vhdr                                               ,vhdr,gr2,chygainov
+215,fon,gr2_chygainov 04_10_2016_fon.vmrk                                               ,vmrk,gr2,chygainov
+216,t1,gr2_chygainov 04_10_2016_t1.eeg                                                 ,eeg,gr2,chygainov
+217,t1,gr2_chygainov 04_10_2016_t1.vhdr                                                ,vhdr,gr2,chygainov
+218,t1,gr2_chygainov 04_10_2016_t1.vmrk                                                ,vmrk,gr2,chygainov
+219,t2,gr2_chygainov 04_10_2016_t2.eeg                                                 ,eeg,gr2,chygainov
+220,t2,gr2_chygainov 04_10_2016_t2.vhdr                                                ,vhdr,gr2,chygainov
+221,t2,gr2_chygainov 04_10_2016_t2.vmrk                                                ,vmrk,gr2,chygainov
+222,t3,gr2_chygainov 04_10_2016_t3.eeg                                                 ,eeg,gr2,chygainov
+223,t3,gr2_chygainov 04_10_2016_t3.vhdr                                                ,vhdr,gr2,chygainov
+224,t3,gr2_chygainov 04_10_2016_t3.vmrk                                                ,vmrk,gr2,chygainov
+225,t1,gr2_shaposhnikov 27_09_2016_t1.eeg                                              ,eeg,gr2,shaposhnikov
+226,t1,gr2_shaposhnikov 27_09_2016_t1.vhdr                                             ,vhdr,gr2,shaposhnikov
+227,t1,gr2_shaposhnikov 27_09_2016_t1.vmrk                                             ,vmrk,gr2,shaposhnikov
+228,t2,gr2_shaposhnikov 27_09_2016_t2.eeg                                              ,eeg,gr2,shaposhnikov
+229,t2,gr2_shaposhnikov 27_09_2016_t2.vhdr                                             ,vhdr,gr2,shaposhnikov
+230,t2,gr2_shaposhnikov 27_09_2016_t2.vmrk                                             ,vmrk,gr2,shaposhnikov
+231,t3,gr2_shaposhnikov 27_09_2016_t3.eeg                                              ,eeg,gr2,shaposhnikov
+232,t3,gr2_shaposhnikov 27_09_2016_t3.vhdr                                             ,vhdr,gr2,shaposhnikov
+233,t3,gr2_shaposhnikov 27_09_2016_t3.vmrk                                             ,vmrk,gr2,shaposhnikov
+234,fon,gr2_sheludakova _15_10_2016_fon.eeg                                             ,eeg,gr2,sheludakova
+235,fon,gr2_sheludakova _15_10_2016_fon.vhdr                                            ,vhdr,gr2,sheludakova
+236,fon,gr2_sheludakova _15_10_2016_fon.vmrk                                            ,vmrk,gr2,sheludakova
+237,t1,gr2_sheludakova _15_10_2016_t1.eeg                                              ,eeg,gr2,sheludakova
+238,t1,gr2_sheludakova _15_10_2016_t1.vhdr                                             ,vhdr,gr2,sheludakova
+239,t1,gr2_sheludakova _15_10_2016_t1.vmrk                                             ,vmrk,gr2,sheludakova
+240,t2,gr2_sheludakova _15_10_2016_t2.eeg                                              ,eeg,gr2,sheludakova
+241,t2,gr2_sheludakova _15_10_2016_t2.vhdr                                             ,vhdr,gr2,sheludakova
+242,t2,gr2_sheludakova _15_10_2016_t2.vmrk                                             ,vmrk,gr2,sheludakova
+243,t3,gr2_sheludakova _15_10_2016_t3.eeg                                              ,eeg,gr2,sheludakova
+244,t3,gr2_sheludakova _15_10_2016_t3.vhdr                                             ,vhdr,gr2,sheludakova
+245,t3,gr2_sheludakova _15_10_2016_t3.vmrk                                             ,vmrk,gr2,sheludakova
+246,fon,gr2_vasilieva 07_10_2016_fon.eeg                                                ,eeg,gr2,vasilieva
+247,fon,gr2_vasilieva 07_10_2016_fon.vhdr                                               ,vhdr,gr2,vasilieva
+248,fon,gr2_vasilieva 07_10_2016_fon.vmrk                                               ,vmrk,gr2,vasilieva
+249,t1,gr2_vasilieva 07_10_2016_t1.eeg                                                 ,eeg,gr2,vasilieva
+250,t1,gr2_vasilieva 07_10_2016_t1.vhdr                                                ,vhdr,gr2,vasilieva
+251,t1,gr2_vasilieva 07_10_2016_t1.vmrk                                                ,vmrk,gr2,vasilieva
+252,t2,gr2_vasilieva 07_10_2016_t2.eeg                                                 ,eeg,gr2,vasilieva
+253,t2,gr2_vasilieva 07_10_2016_t2.vhdr                                                ,vhdr,gr2,vasilieva
+254,t2,gr2_vasilieva 07_10_2016_t2.vmrk                                                ,vmrk,gr2,vasilieva
+255,t3,gr2_vasilieva 07_10_2016_t3.eeg                                                 ,eeg,gr2,vasilieva
+256,t3,gr2_vasilieva 07_10_2016_t3.vhdr                                                ,vhdr,gr2,vasilieva
+257,t3,gr2_vasilieva 07_10_2016_t3.vmrk                                                ,vmrk,gr2,vasilieva
+258,fon,gr2_zelenskaya 17_10_2016_fon.eeg                                               ,eeg,gr2,zelenskaya
+259,fon,gr2_zelenskaya 17_10_2016_fon.vhdr                                              ,vhdr,gr2,zelenskaya
+260,fon,gr2_zelenskaya 17_10_2016_fon.vmrk                                              ,vmrk,gr2,zelenskaya
+261,t1,gr2_zelenskaya 17_10_2016_t1.eeg                                                ,eeg,gr2,zelenskaya
+262,t1,gr2_zelenskaya 17_10_2016_t1.vhdr                                               ,vhdr,gr2,zelenskaya
+263,t1,gr2_zelenskaya 17_10_2016_t1.vmrk                                               ,vmrk,gr2,zelenskaya
+264,t2,gr2_zelenskaya 17_10_2016_t2.eeg                                                ,eeg,gr2,zelenskaya
+265,t2,gr2_zelenskaya 17_10_2016_t2.vhdr                                               ,vhdr,gr2,zelenskaya
+266,t2,gr2_zelenskaya 17_10_2016_t2.vmrk                                               ,vmrk,gr2,zelenskaya
+267,t3,gr2_zelenskaya 17_10_2016_t3.eeg                                                ,eeg,gr2,zelenskaya
+268,t3,gr2_zelenskaya 17_10_2016_t3.vhdr                                               ,vhdr,gr2,zelenskaya
+269,t3,gr2_zelenskaya 17_10_2016_t3.vmrk                                               ,vmrk,gr2,zelenskaya
+270,fon,gr3_Barhatskya 09_11_2016_fon.eeg                                               ,eeg,gr3,barhatskya
+271,fon,gr3_Barhatskya 09_11_2016_fon.vhdr                                              ,vhdr,gr3,barhatskya
+272,fon,gr3_Barhatskya 09_11_2016_fon.vmrk                                              ,vmrk,gr3,barhatskya
+273,t1,gr3_Barhatskya 09_11_2016_t1.eeg                                                ,eeg,gr3,barhatskya
+274,t1,gr3_Barhatskya 09_11_2016_t1.vhdr                                               ,vhdr,gr3,barhatskya
+275,t1,gr3_Barhatskya 09_11_2016_t1.vmrk                                               ,vmrk,gr3,barhatskya
+276,t2,gr3_Barhatskya 09_11_2016_t2.eeg                                                ,eeg,gr3,barhatskya
+277,t2,gr3_Barhatskya 09_11_2016_t2.vhdr                                               ,vhdr,gr3,barhatskya
+278,t2,gr3_Barhatskya 09_11_2016_t2.vmrk                                               ,vmrk,gr3,barhatskya
+279,t3,gr3_Barhatskya 09_11_2016_t3.eeg                                                ,eeg,gr3,barhatskya
+280,t3,gr3_Barhatskya 09_11_2016_t3.vhdr                                               ,vhdr,gr3,barhatskya
+281,t3,gr3_Barhatskya 09_11_2016_t3.vmrk                                               ,vmrk,gr3,barhatskya
+282,fon,gr3_Belenkova_23_11_2016_fon.eeg                                                ,eeg,gr3,belenkova
+283,fon,gr3_Belenkova_23_11_2016_fon.vhdr                                               ,vhdr,gr3,belenkova
+284,fon,gr3_Belenkova_23_11_2016_fon.vmrk                                               ,vmrk,gr3,belenkova
+285,t1,gr3_Belenkova_23_11_2016_t1.eeg                                                 ,eeg,gr3,belenkova
+286,t1,gr3_Belenkova_23_11_2016_t1.vhdr                                                ,vhdr,gr3,belenkova
+287,t1,gr3_Belenkova_23_11_2016_t1.vmrk                                                ,vmrk,gr3,belenkova
+288,t2,gr3_Belenkova_23_11_2016_t2.eeg                                                 ,eeg,gr3,belenkova
+289,t2,gr3_Belenkova_23_11_2016_t2.vhdr                                                ,vhdr,gr3,belenkova
+290,t2,gr3_Belenkova_23_11_2016_t2.vmrk                                                ,vmrk,gr3,belenkova
+291,t3,gr3_Belenkova_23_11_2016_t3.eeg                                                 ,eeg,gr3,belenkova
+292,t3,gr3_Belenkova_23_11_2016_t3.vhdr                                                ,vhdr,gr3,belenkova
+293,t3,gr3_Belenkova_23_11_2016_t3.vmrk                                                ,vmrk,gr3,belenkova
+294,fon,gr3_Bliznuk_29_11_2016_fon.eeg                                                  ,eeg,gr3,bliznuk
+295,fon,gr3_Bliznuk_29_11_2016_fon.vhdr                                                 ,vhdr,gr3,bliznuk
+296,fon,gr3_Bliznuk_29_11_2016_fon.vmrk                                                 ,vmrk,gr3,bliznuk
+297,fon2,gr3_Bliznuk_29_11_2016_fon2.eeg                                                 ,eeg,gr3,bliznuk
+298,fon2,gr3_Bliznuk_29_11_2016_fon2.vhdr                                                ,vhdr,gr3,bliznuk
+299,fon2,gr3_Bliznuk_29_11_2016_fon2.vmrk                                                ,vmrk,gr3,bliznuk
+300,t1,gr3_Bliznuk_29_11_2016_t1.eeg                                                   ,eeg,gr3,bliznuk
+301,t1,gr3_Bliznuk_29_11_2016_t1.vhdr                                                  ,vhdr,gr3,bliznuk
+302,t1,gr3_Bliznuk_29_11_2016_t1.vmrk                                                  ,vmrk,gr3,bliznuk
+303,t2,gr3_Bliznuk_29_11_2016_t2.eeg                                                   ,eeg,gr3,bliznuk
+304,t2,gr3_Bliznuk_29_11_2016_t2.vhdr                                                  ,vhdr,gr3,bliznuk
+305,t2,gr3_Bliznuk_29_11_2016_t2.vmrk                                                  ,vmrk,gr3,bliznuk
+306,t3,gr3_Bliznuk_29_11_2016_t3.eeg                                                   ,eeg,gr3,bliznuk
+307,t3,gr3_Bliznuk_29_11_2016_t3.vhdr                                                  ,vhdr,gr3,bliznuk
+308,t3,gr3_Bliznuk_29_11_2016_t3.vmrk                                                  ,vmrk,gr3,bliznuk
+309,fon,gr3_Chernichenko_23_11_2016_fon.eeg                                             ,eeg,gr3,chernichenko
+310,fon,gr3_Chernichenko_23_11_2016_fon.vhdr                                            ,vhdr,gr3,chernichenko
+311,fon,gr3_Chernichenko_23_11_2016_fon.vmrk                                            ,vmrk,gr3,chernichenko
+312,t1,gr3_Chernichenko_23_11_2016_t1.eeg                                              ,eeg,gr3,chernichenko
+313,t1,gr3_Chernichenko_23_11_2016_t1.vhdr                                             ,vhdr,gr3,chernichenko
+314,t1,gr3_Chernichenko_23_11_2016_t1.vmrk                                             ,vmrk,gr3,chernichenko
+315,t2,gr3_Chernichenko_23_11_2016_t2.eeg                                              ,eeg,gr3,chernichenko
+316,t2,gr3_Chernichenko_23_11_2016_t2.vhdr                                             ,vhdr,gr3,chernichenko
+317,t2,gr3_Chernichenko_23_11_2016_t2.vmrk                                             ,vmrk,gr3,chernichenko
+318,t3,gr3_Chernichenko_23_11_2016_t3.eeg                                              ,eeg,gr3,chernichenko
+319,t3,gr3_Chernichenko_23_11_2016_t3.vhdr                                             ,vhdr,gr3,chernichenko
+320,t3,gr3_Chernichenko_23_11_2016_t3.vmrk                                             ,vmrk,gr3,chernichenko
+321,2016,gr3_Chervyakov 10_11_2016.eeg                                                   ,eeg,gr3,chervyakov
+322,2016,gr3_Chervyakov 10_11_2016.vhdr                                                  ,vhdr,gr3,chervyakov
+323,2016,gr3_Chervyakov 10_11_2016.vmrk                                                  ,vmrk,gr3,chervyakov
+324,t1,gr3_Chervyakov 10_11_2016_t1.eeg                                                ,eeg,gr3,chervyakov
+325,t1,gr3_Chervyakov 10_11_2016_t1.vhdr                                               ,vhdr,gr3,chervyakov
+326,t1,gr3_Chervyakov 10_11_2016_t1.vmrk                                               ,vmrk,gr3,chervyakov
+327,t2,gr3_Chervyakov 10_11_2016_t2.eeg                                                ,eeg,gr3,chervyakov
+328,t2,gr3_Chervyakov 10_11_2016_t2.vhdr                                               ,vhdr,gr3,chervyakov
+329,t2,gr3_Chervyakov 10_11_2016_t2.vmrk                                               ,vmrk,gr3,chervyakov
+330,t3,gr3_Chervyakov 10_11_2016_t3.eeg                                                ,eeg,gr3,chervyakov
+331,t3,gr3_Chervyakov 10_11_2016_t3.vhdr                                               ,vhdr,gr3,chervyakov
+332,t3,gr3_Chervyakov 10_11_2016_t3.vmrk                                               ,vmrk,gr3,chervyakov
+333,fon,gr3_Chugunova 09_11_2016_fon.eeg                                                ,eeg,gr3,chugunova
+334,fon,gr3_Chugunova 09_11_2016_fon.vhdr                                               ,vhdr,gr3,chugunova
+335,fon,gr3_Chugunova 09_11_2016_fon.vmrk                                               ,vmrk,gr3,chugunova
+336,t1,gr3_Chugunova 09_11_2016_t1.eeg                                                 ,eeg,gr3,chugunova
+337,t1,gr3_Chugunova 09_11_2016_t1.vhdr                                                ,vhdr,gr3,chugunova
+338,t1,gr3_Chugunova 09_11_2016_t1.vmrk                                                ,vmrk,gr3,chugunova
+339,t2,gr3_Chugunova 09_11_2016_t2.eeg                                                 ,eeg,gr3,chugunova
+340,t2,gr3_Chugunova 09_11_2016_t2.vhdr                                                ,vhdr,gr3,chugunova
+341,t2,gr3_Chugunova 09_11_2016_t2.vmrk                                                ,vmrk,gr3,chugunova
+342,t3,gr3_Chugunova 09_11_2016_t3.eeg                                                 ,eeg,gr3,chugunova
+343,t3,gr3_Chugunova 09_11_2016_t3.vhdr                                                ,vhdr,gr3,chugunova
+344,t3,gr3_Chugunova 09_11_2016_t3.vmrk                                                ,vmrk,gr3,chugunova
+345,fon,gr3_Dragun_26_11_2016_fon.eeg                                                   ,eeg,gr3,dragun
+346,fon,gr3_Dragun_26_11_2016_fon.vhdr                                                  ,vhdr,gr3,dragun
+347,fon,gr3_Dragun_26_11_2016_fon.vmrk                                                  ,vmrk,gr3,dragun
+348,t1,gr3_Dragun_26_11_2016_t1.eeg                                                    ,eeg,gr3,dragun
+349,t1,gr3_Dragun_26_11_2016_t1.vhdr                                                   ,vhdr,gr3,dragun
+350,t1,gr3_Dragun_26_11_2016_t1.vmrk                                                   ,vmrk,gr3,dragun
+351,t2,gr3_Dragun_26_11_2016_t2.eeg                                                    ,eeg,gr3,dragun
+352,t2,gr3_Dragun_26_11_2016_t2.vhdr                                                   ,vhdr,gr3,dragun
+353,t2,gr3_Dragun_26_11_2016_t2.vmrk                                                   ,vmrk,gr3,dragun
+354,t3,gr3_Dragun_26_11_2016_t3.eeg                                                    ,eeg,gr3,dragun
+355,t3,gr3_Dragun_26_11_2016_t3.vhdr                                                   ,vhdr,gr3,dragun
+356,t3,gr3_Dragun_26_11_2016_t3.vmrk                                                   ,vmrk,gr3,dragun
+357,fon,gr3_Kicheeva 16_11_2016_fon.eeg                                                 ,eeg,gr3,kicheeva
+358,fon,gr3_Kicheeva 16_11_2016_fon.vhdr                                                ,vhdr,gr3,kicheeva
+359,fon,gr3_Kicheeva 16_11_2016_fon.vmrk                                                ,vmrk,gr3,kicheeva
+360,t1,gr3_Kicheeva 16_11_2016_t1.eeg                                                  ,eeg,gr3,kicheeva
+361,t1,gr3_Kicheeva 16_11_2016_t1.vhdr                                                 ,vhdr,gr3,kicheeva
+362,t1,gr3_Kicheeva 16_11_2016_t1.vmrk                                                 ,vmrk,gr3,kicheeva
+363,t2,gr3_Kicheeva 16_11_2016_t2.eeg                                                  ,eeg,gr3,kicheeva
+364,t2,gr3_Kicheeva 16_11_2016_t2.vhdr                                                 ,vhdr,gr3,kicheeva
+365,t2,gr3_Kicheeva 16_11_2016_t2.vmrk                                                 ,vmrk,gr3,kicheeva
+366,t3,gr3_Kicheeva 16_11_2016_t3.eeg                                                  ,eeg,gr3,kicheeva
+367,t3,gr3_Kicheeva 16_11_2016_t3.vhdr                                                 ,vhdr,gr3,kicheeva
+368,t3,gr3_Kicheeva 16_11_2016_t3.vmrk                                                 ,vmrk,gr3,kicheeva
+369,fon,gr3_Klimova 16_11_2016_fon.eeg                                                  ,eeg,gr3,klimova
+370,fon,gr3_Klimova 16_11_2016_fon.vhdr                                                 ,vhdr,gr3,klimova
+371,fon,gr3_Klimova 16_11_2016_fon.vmrk                                                 ,vmrk,gr3,klimova
+372,t1,gr3_Klimova 16_11_2016_t1.eeg                                                   ,eeg,gr3,klimova
+373,t1,gr3_Klimova 16_11_2016_t1.vhdr                                                  ,vhdr,gr3,klimova
+374,t1,gr3_Klimova 16_11_2016_t1.vmrk                                                  ,vmrk,gr3,klimova
+375,t2,gr3_Klimova 16_11_2016_t2.eeg                                                   ,eeg,gr3,klimova
+376,t2,gr3_Klimova 16_11_2016_t2.vhdr                                                  ,vhdr,gr3,klimova
+377,t2,gr3_Klimova 16_11_2016_t2.vmrk                                                  ,vmrk,gr3,klimova
+378,t3,gr3_Klimova 16_11_2016_t3.eeg                                                   ,eeg,gr3,klimova
+379,t3,gr3_Klimova 16_11_2016_t3.vhdr                                                  ,vhdr,gr3,klimova
+380,t3,gr3_Klimova 16_11_2016_t3.vmrk                                                  ,vmrk,gr3,klimova
+381,fon,gr3_Krylov_18_11_2016_fon.eeg                                                   ,eeg,gr3,krylov
+382,fon,gr3_Krylov_18_11_2016_fon.vhdr                                                  ,vhdr,gr3,krylov
+383,fon,gr3_Krylov_18_11_2016_fon.vmrk                                                  ,vmrk,gr3,krylov
+384,t1,gr3_Krylov_18_11_2016_t1.eeg                                                    ,eeg,gr3,krylov
+385,t1,gr3_Krylov_18_11_2016_t1.vhdr                                                   ,vhdr,gr3,krylov
+386,t1,gr3_Krylov_18_11_2016_t1.vmrk                                                   ,vmrk,gr3,krylov
+387,t2,gr3_Krylov_18_11_2016_t2.eeg                                                    ,eeg,gr3,krylov
+388,t2,gr3_Krylov_18_11_2016_t2.vhdr                                                   ,vhdr,gr3,krylov
+389,t2,gr3_Krylov_18_11_2016_t2.vmrk                                                   ,vmrk,gr3,krylov
+390,t3,gr3_Krylov_18_11_2016_t3.eeg                                                    ,eeg,gr3,krylov
+391,t3,gr3_Krylov_18_11_2016_t3.vhdr                                                   ,vhdr,gr3,krylov
+392,t3,gr3_Krylov_18_11_2016_t3.vmrk                                                   ,vmrk,gr3,krylov
+393,fon,gr3_Matveeva_30_11_2016_fon.eeg                                                 ,eeg,gr3,matveeva
+394,fon,gr3_Matveeva_30_11_2016_fon.vhdr                                                ,vhdr,gr3,matveeva
+395,fon,gr3_Matveeva_30_11_2016_fon.vmrk                                                ,vmrk,gr3,matveeva
+396,t1,gr3_Matveeva_30_11_2016_t1.eeg                                                  ,eeg,gr3,matveeva
+397,t1,gr3_Matveeva_30_11_2016_t1.vhdr                                                 ,vhdr,gr3,matveeva
+398,t1,gr3_Matveeva_30_11_2016_t1.vmrk                                                 ,vmrk,gr3,matveeva
+399,t2,gr3_Matveeva_30_11_2016_t2.eeg                                                  ,eeg,gr3,matveeva
+400,t2,gr3_Matveeva_30_11_2016_t2.vhdr                                                 ,vhdr,gr3,matveeva
+401,t2,gr3_Matveeva_30_11_2016_t2.vmrk                                                 ,vmrk,gr3,matveeva
+402,t3,gr3_Matveeva_30_11_2016_t3.eeg                                                  ,eeg,gr3,matveeva
+403,t3,gr3_Matveeva_30_11_2016_t3.vhdr                                                 ,vhdr,gr3,matveeva
+404,t3,gr3_Matveeva_30_11_2016_t3.vmrk                                                 ,vmrk,gr3,matveeva
+405,fon,gr3_Medvedeva 10_11_2016_fon.eeg                                                ,eeg,gr3,medvedeva
+406,fon,gr3_Medvedeva 10_11_2016_fon.vhdr                                               ,vhdr,gr3,medvedeva
+407,fon,gr3_Medvedeva 10_11_2016_fon.vmrk                                               ,vmrk,gr3,medvedeva
+408,t1,gr3_Medvedeva 10_11_2016_t1.eeg                                                 ,eeg,gr3,medvedeva
+409,t1,gr3_Medvedeva 10_11_2016_t1.vhdr                                                ,vhdr,gr3,medvedeva
+410,t1,gr3_Medvedeva 10_11_2016_t1.vmrk                                                ,vmrk,gr3,medvedeva
+411,t2,gr3_Medvedeva 10_11_2016_t2.eeg                                                 ,eeg,gr3,medvedeva
+412,t2,gr3_Medvedeva 10_11_2016_t2.vhdr                                                ,vhdr,gr3,medvedeva
+413,t2,gr3_Medvedeva 10_11_2016_t2.vmrk                                                ,vmrk,gr3,medvedeva
+414,t3,gr3_Medvedeva 10_11_2016_t3.eeg                                                 ,eeg,gr3,medvedeva
+415,t3,gr3_Medvedeva 10_11_2016_t3.vhdr                                                ,vhdr,gr3,medvedeva
+416,t3,gr3_Medvedeva 10_11_2016_t3.vmrk                                                ,vmrk,gr3,medvedeva
+417,fon,gr3_Pobeda 10_11_2016_fon.eeg                                                   ,eeg,gr3,pobeda
+418,fon,gr3_Pobeda 10_11_2016_fon.vhdr                                                  ,vhdr,gr3,pobeda
+419,fon,gr3_Pobeda 10_11_2016_fon.vmrk                                                  ,vmrk,gr3,pobeda
+420,t1,gr3_Pobeda 10_11_2016_t1.eeg                                                    ,eeg,gr3,pobeda
+421,t1,gr3_Pobeda 10_11_2016_t1.vhdr                                                   ,vhdr,gr3,pobeda
+422,t1,gr3_Pobeda 10_11_2016_t1.vmrk                                                   ,vmrk,gr3,pobeda
+423,t2,gr3_Pobeda 10_11_2016_t2.eeg                                                    ,eeg,gr3,pobeda
+424,t2,gr3_Pobeda 10_11_2016_t2.vhdr                                                   ,vhdr,gr3,pobeda
+425,t2,gr3_Pobeda 10_11_2016_t2.vmrk                                                   ,vmrk,gr3,pobeda
+426,t3,gr3_Pobeda 10_11_2016_t3.eeg                                                    ,eeg,gr3,pobeda
+427,t3,gr3_Pobeda 10_11_2016_t3.vhdr                                                   ,vhdr,gr3,pobeda
+428,t3,gr3_Pobeda 10_11_2016_t3.vmrk                                                   ,vmrk,gr3,pobeda
+429,fon,gr3_Pogodina_26_11_2016_fon.eeg                                                 ,eeg,gr3,pogodina
+430,fon,gr3_Pogodina_26_11_2016_fon.vhdr                                                ,vhdr,gr3,pogodina
+431,fon,gr3_Pogodina_26_11_2016_fon.vmrk                                                ,vmrk,gr3,pogodina
+432,t1,gr3_Pogodina_26_11_2016_t1.eeg                                                  ,eeg,gr3,pogodina
+433,t1,gr3_Pogodina_26_11_2016_t1.vhdr                                                 ,vhdr,gr3,pogodina
+434,t1,gr3_Pogodina_26_11_2016_t1.vmrk                                                 ,vmrk,gr3,pogodina
+435,t2,gr3_Pogodina_26_11_2016_t2.eeg                                                  ,eeg,gr3,pogodina
+436,t2,gr3_Pogodina_26_11_2016_t2.vhdr                                                 ,vhdr,gr3,pogodina
+437,t2,gr3_Pogodina_26_11_2016_t2.vmrk                                                 ,vmrk,gr3,pogodina
+438,t3,gr3_Pogodina_26_11_2016_t3.eeg                                                  ,eeg,gr3,pogodina
+439,t3,gr3_Pogodina_26_11_2016_t3.vhdr                                                 ,vhdr,gr3,pogodina
+440,t3,gr3_Pogodina_26_11_2016_t3.vmrk                                                 ,vmrk,gr3,pogodina
+441,2016,gr3_Pokroskiy_13_10_2016.eeg                                                    ,eeg,gr3,pokroskiy
+442,2016,gr3_Pokroskiy_13_10_2016.vhdr                                                   ,vhdr,gr3,pokroskiy
+443,2016,gr3_Pokroskiy_13_10_2016.vmrk                                                   ,vmrk,gr3,pokroskiy
+444,t1,gr3_Pokroskiy_13_10_2016_t1.eeg                                                 ,eeg,gr3,pokroskiy
+445,t1,gr3_Pokroskiy_13_10_2016_t1.vhdr                                                ,vhdr,gr3,pokroskiy
+446,t1,gr3_Pokroskiy_13_10_2016_t1.vmrk                                                ,vmrk,gr3,pokroskiy
+447,t2,gr3_Pokroskiy_13_10_2016_t2.eeg                                                 ,eeg,gr3,pokroskiy
+448,t2,gr3_Pokroskiy_13_10_2016_t2.vhdr                                                ,vhdr,gr3,pokroskiy
+449,t2,gr3_Pokroskiy_13_10_2016_t2.vmrk                                                ,vmrk,gr3,pokroskiy
+450,t3,gr3_Pokroskiy_13_10_2016_t3.eeg                                                 ,eeg,gr3,pokroskiy
+451,t3,gr3_Pokroskiy_13_10_2016_t3.vhdr                                                ,vhdr,gr3,pokroskiy
+452,t3,gr3_Pokroskiy_13_10_2016_t3.vmrk                                                ,vmrk,gr3,pokroskiy
+453,fon,gr3_Reshetnikova 11_11_2016_fon.eeg                                             ,eeg,gr3,reshetnikova
+454,fon,gr3_Reshetnikova 11_11_2016_fon.vhdr                                            ,vhdr,gr3,reshetnikova
+455,fon,gr3_Reshetnikova 11_11_2016_fon.vmrk                                            ,vmrk,gr3,reshetnikova
+456,t1,gr3_Reshetnikova 11_11_2016_t1.eeg                                              ,eeg,gr3,reshetnikova
+457,t1,gr3_Reshetnikova 11_11_2016_t1.vhdr                                             ,vhdr,gr3,reshetnikova
+458,t1,gr3_Reshetnikova 11_11_2016_t1.vmrk                                             ,vmrk,gr3,reshetnikova
+459,t2,gr3_Reshetnikova 11_11_2016_t2.eeg                                              ,eeg,gr3,reshetnikova
+460,t2,gr3_Reshetnikova 11_11_2016_t2.vhdr                                             ,vhdr,gr3,reshetnikova
+461,t2,gr3_Reshetnikova 11_11_2016_t2.vmrk                                             ,vmrk,gr3,reshetnikova
+462,t3,gr3_Reshetnikova 11_11_2016_t3.eeg                                              ,eeg,gr3,reshetnikova
+463,t3,gr3_Reshetnikova 11_11_2016_t3.vhdr                                             ,vhdr,gr3,reshetnikova
+464,t3,gr3_Reshetnikova 11_11_2016_t3.vmrk                                             ,vmrk,gr3,reshetnikova
+465,fon,gr3_Rimskiy_17_11_2016_fon.eeg                                                  ,eeg,gr3,rimskiy
+466,fon,gr3_Rimskiy_17_11_2016_fon.vhdr                                                 ,vhdr,gr3,rimskiy
+467,fon,gr3_Rimskiy_17_11_2016_fon.vmrk                                                 ,vmrk,gr3,rimskiy
+468,t1,gr3_Rimskiy_17_11_2016_t1.eeg                                                   ,eeg,gr3,rimskiy
+469,t1,gr3_Rimskiy_17_11_2016_t1.vhdr                                                  ,vhdr,gr3,rimskiy
+470,t1,gr3_Rimskiy_17_11_2016_t1.vmrk                                                  ,vmrk,gr3,rimskiy
+471,t2,gr3_Rimskiy_17_11_2016_t2.eeg                                                   ,eeg,gr3,rimskiy
+472,t2,gr3_Rimskiy_17_11_2016_t2.vhdr                                                  ,vhdr,gr3,rimskiy
+473,t2,gr3_Rimskiy_17_11_2016_t2.vmrk                                                  ,vmrk,gr3,rimskiy
+474,t3,gr3_Rimskiy_17_11_2016_t3.eeg                                                   ,eeg,gr3,rimskiy
+475,t3,gr3_Rimskiy_17_11_2016_t3.vhdr                                                  ,vhdr,gr3,rimskiy
+476,t3,gr3_Rimskiy_17_11_2016_t3.vmrk                                                  ,vmrk,gr3,rimskiy
+477,2016,gr3_Rygih_29_11_2016.eeg                                                        ,eeg,gr3,rygih
+478,2016,gr3_Rygih_29_11_2016.vhdr                                                       ,vhdr,gr3,rygih
+479,2016,gr3_Rygih_29_11_2016.vmrk                                                       ,vmrk,gr3,rygih
+480,t1,gr3_Rygih_29_11_2016_t1.eeg                                                     ,eeg,gr3,rygih
+481,t1,gr3_Rygih_29_11_2016_t1.vhdr                                                    ,vhdr,gr3,rygih
+482,t1,gr3_Rygih_29_11_2016_t1.vmrk                                                    ,vmrk,gr3,rygih
+483,t2,gr3_Rygih_29_11_2016_t2.eeg                                                     ,eeg,gr3,rygih
+484,t2,gr3_Rygih_29_11_2016_t2.vhdr                                                    ,vhdr,gr3,rygih
+485,t2,gr3_Rygih_29_11_2016_t2.vmrk                                                    ,vmrk,gr3,rygih
+486,t3,gr3_Rygih_29_11_2016_t3.eeg                                                     ,eeg,gr3,rygih
+487,t3,gr3_Rygih_29_11_2016_t3.vhdr                                                    ,vhdr,gr3,rygih
+488,t3,gr3_Rygih_29_11_2016_t3.vmrk                                                    ,vmrk,gr3,rygih
+489,fon,gr3_Siniaeva_26_11_2016_fon.eeg                                                 ,eeg,gr3,siniaeva
+490,fon,gr3_Siniaeva_26_11_2016_fon.vhdr                                                ,vhdr,gr3,siniaeva
+491,fon,gr3_Siniaeva_26_11_2016_fon.vmrk                                                ,vmrk,gr3,siniaeva
+492,t1,gr3_Siniaeva_26_11_2016_t1.eeg                                                  ,eeg,gr3,siniaeva
+493,t1,gr3_Siniaeva_26_11_2016_t1.vhdr                                                 ,vhdr,gr3,siniaeva
+494,t1,gr3_Siniaeva_26_11_2016_t1.vmrk                                                 ,vmrk,gr3,siniaeva
+495,t2,gr3_Siniaeva_26_11_2016_t2.eeg                                                  ,eeg,gr3,siniaeva
+496,t2,gr3_Siniaeva_26_11_2016_t2.vhdr                                                 ,vhdr,gr3,siniaeva
+497,t2,gr3_Siniaeva_26_11_2016_t2.vmrk                                                 ,vmrk,gr3,siniaeva
+498,t3,gr3_Siniaeva_26_11_2016_t3.eeg                                                  ,eeg,gr3,siniaeva
+499,t3,gr3_Siniaeva_26_11_2016_t3.vhdr                                                 ,vhdr,gr3,siniaeva
+500,t3,gr3_Siniaeva_26_11_2016_t3.vmrk                                                 ,vmrk,gr3,siniaeva
+501,fon,gr3_Speshneva 09_11_2016_ fon.eeg                                               ,eeg,gr3,speshneva
+502,fon,gr3_Speshneva 09_11_2016_ fon.vhdr                                              ,vhdr,gr3,speshneva
+503,fon,gr3_Speshneva 09_11_2016_ fon.vmrk                                              ,vmrk,gr3,speshneva
+504,t1,gr3_Speshneva 09_11_2016_t1.eeg                                                 ,eeg,gr3,speshneva
+505,t1,gr3_Speshneva 09_11_2016_t1.vhdr                                                ,vhdr,gr3,speshneva
+506,t1,gr3_Speshneva 09_11_2016_t1.vmrk                                                ,vmrk,gr3,speshneva
+507,t2,gr3_Speshneva 09_11_2016_t2.eeg                                                 ,eeg,gr3,speshneva
+508,t2,gr3_Speshneva 09_11_2016_t2.vhdr                                                ,vhdr,gr3,speshneva
+509,t2,gr3_Speshneva 09_11_2016_t2.vmrk                                                ,vmrk,gr3,speshneva
+510,t3,gr3_Speshneva 09_11_2016_t3.eeg                                                 ,eeg,gr3,speshneva
+511,t3,gr3_Speshneva 09_11_2016_t3.vhdr                                                ,vhdr,gr3,speshneva
+512,t3,gr3_Speshneva 09_11_2016_t3.vmrk                                                ,vmrk,gr3,speshneva
+513,2016,gr_2_baeva 17_10_2016.eeg                                                       ,eeg,gr,baeva
+514,2016,gr_2_baeva 17_10_2016.vhdr                                                      ,vhdr,gr,baeva
+515,2016,gr_2_baeva 17_10_2016.vmrk                                                      ,vmrk,gr,baeva
+516,t1,gr_2_baeva 17_10_2016_t1.eeg                                                    ,eeg,gr,baeva
+517,t1,gr_2_baeva 17_10_2016_t1.vhdr                                                   ,vhdr,gr,baeva
+518,t1,gr_2_baeva 17_10_2016_t1.vmrk                                                   ,vmrk,gr,baeva
+519,t2,gr_2_baeva 17_10_2016_t2.eeg                                                    ,eeg,gr,baeva
+520,t2,gr_2_baeva 17_10_2016_t2.vhdr                                                   ,vhdr,gr,baeva
+521,t2,gr_2_baeva 17_10_2016_t2.vmrk                                                   ,vmrk,gr,baeva
+522,t3,gr_2_baeva 17_10_2016_t3.eeg                                                    ,eeg,gr,baeva
+523,t3,gr_2_baeva 17_10_2016_t3.vhdr                                                   ,vhdr,gr,baeva
+524,t3,gr_2_baeva 17_10_2016_t3.vmrk                                                   ,vmrk,gr,baeva
+525,fon,gr_2_bogomolov 15_10_2016_fon.eeg                                               ,eeg,gr,bogomolov
+526,fon,gr_2_bogomolov 15_10_2016_fon.vhdr                                              ,vhdr,gr,bogomolov
+527,fon,gr_2_bogomolov 15_10_2016_fon.vmrk                                              ,vmrk,gr,bogomolov
+528,t1,gr_2_bogomolov 15_10_2016_t1.eeg                                                ,eeg,gr,bogomolov
+529,t1,gr_2_bogomolov 15_10_2016_t1.vhdr                                               ,vhdr,gr,bogomolov
+530,t1,gr_2_bogomolov 15_10_2016_t1.vmrk                                               ,vmrk,gr,bogomolov
+531,t2,gr_2_bogomolov 15_10_2016_t2.eeg                                                ,eeg,gr,bogomolov
+532,t2,gr_2_bogomolov 15_10_2016_t2.vhdr                                               ,vhdr,gr,bogomolov
+533,t2,gr_2_bogomolov 15_10_2016_t2.vmrk                                               ,vmrk,gr,bogomolov
+534,t3,gr_2_bogomolov 15_10_2016_t3.eeg                                                ,eeg,gr,bogomolov
+535,t3,gr_2_bogomolov 15_10_2016_t3.vhdr                                               ,vhdr,gr,bogomolov
+536,t3,gr_2_bogomolov 15_10_2016_t3.vmrk                                               ,vmrk,gr,bogomolov
+537,fon,gr_2_pneva 18_10_2016_fon.eeg                                                   ,eeg,gr,pneva
+538,fon,gr_2_pneva 18_10_2016_fon.vhdr                                                  ,vhdr,gr,pneva
+539,fon,gr_2_pneva 18_10_2016_fon.vmrk                                                  ,vmrk,gr,pneva
+540,t1,gr_2_pneva 18_10_2016_t1.eeg                                                    ,eeg,gr,pneva
+541,t1,gr_2_pneva 18_10_2016_t1.vhdr                                                   ,vhdr,gr,pneva
+542,t1,gr_2_pneva 18_10_2016_t1.vmrk                                                   ,vmrk,gr,pneva
+543,t2,gr_2_pneva 18_10_2016_t2.eeg                                                    ,eeg,gr,pneva
+544,t2,gr_2_pneva 18_10_2016_t2.vhdr                                                   ,vhdr,gr,pneva
+545,t2,gr_2_pneva 18_10_2016_t2.vmrk                                                   ,vmrk,gr,pneva
+546,t3,gr_2_pneva 18_10_2016_t3.eeg                                                    ,eeg,gr,pneva
+547,t3,gr_2_pneva 18_10_2016_t3.vhdr                                                   ,vhdr,gr,pneva
+548,t3,gr_2_pneva 18_10_2016_t3.vmrk                                                   ,vmrk,gr,pneva
+549,fon,gr_3_Rimskaya_17_11_2016_fon.eeg                                                ,eeg,gr,rimskaya
+550,fon,gr_3_Rimskaya_17_11_2016_fon.vhdr                                               ,vhdr,gr,rimskaya
+551,fon,gr_3_Rimskaya_17_11_2016_fon.vmrk                                               ,vmrk,gr,rimskaya
+552,t2,gr_3_Rimskaya_17_11_2016_t2.eeg                                                 ,eeg,gr,rimskaya
+553,t2,gr_3_Rimskaya_17_11_2016_t2.vhdr                                                ,vhdr,gr,rimskaya
+554,t2,gr_3_Rimskaya_17_11_2016_t2.vmrk                                                ,vmrk,gr,rimskaya
+555,t3,gr_3_Rimskaya_17_11_2016_t3.eeg                                                 ,eeg,gr,rimskaya
+556,t3,gr_3_Rimskaya_17_11_2016_t3.vhdr                                                ,vhdr,gr,rimskaya
+557,t3,gr_3_Rimskaya_17_11_2016_t3.vmrk                                                ,vmrk,gr,rimskaya
+558,o,o.eeg                                                                           ,eeg,0,0
+559,o,o.vhdr                                                                          ,vhdr,0,0
+560,o,o.vmrk                                                                          ,vmrk,0,0
+561,pr,pr.eeg                                                                          ,eeg,0,0
+562,pr,pr.vhdr                                                                         ,vhdr,0,0
+563,pr,pr.vmrk                                                                         ,vmrk,0,0
+564,prob,prob.eeg                                                                        ,eeg,0,0
+565,prob,prob.vhdr                                                                       ,vhdr,0,0
+566,prob,prob.vmrk                                                                       ,vmrk,0,0
+567,prob10,prob10.eeg                                                                      ,eeg,0,0
+568,prob10,prob10.vhdr                                                                     ,vhdr,0,0
+569,prob10,prob10.vmrk                                                                     ,vmrk,0,0
+570,prob11,prob11.eeg                                                                      ,eeg,0,0
+571,prob11,prob11.vhdr                                                                     ,vhdr,0,0
+572,prob11,prob11.vmrk                                                                     ,vmrk,0,0
+573,prob12,prob12.eeg                                                                      ,eeg,0,0
+574,prob12,prob12.vhdr                                                                     ,vhdr,0,0
+575,prob12,prob12.vmrk                                                                     ,vmrk,0,0
+576,prob13,prob13.eeg                                                                      ,eeg,0,0
+577,prob13,prob13.vhdr                                                                     ,vhdr,0,0
+578,prob13,prob13.vmrk                                                                     ,vmrk,0,0
+579,prob14,prob14.eeg                                                                      ,eeg,0,0
+580,prob14,prob14.vhdr                                                                     ,vhdr,0,0
+581,prob14,prob14.vmrk                                                                     ,vmrk,0,0
+582,prob15,prob15.eeg                                                                      ,eeg,0,0
+583,prob15,prob15.vhdr                                                                     ,vhdr,0,0
+584,prob15,prob15.vmrk                                                                     ,vmrk,0,0
+585,prob2,prob2.eeg                                                                       ,eeg,0,0
+586,prob2,prob2.vhdr                                                                      ,vhdr,0,0
+587,prob2,prob2.vmrk                                                                      ,vmrk,0,0
+588,prob3,prob3.eeg                                                                       ,eeg,0,0
+589,prob3,prob3.vhdr                                                                      ,vhdr,0,0
+590,prob3,prob3.vmrk                                                                      ,vmrk,0,0
+591,prob4,prob4.eeg                                                                       ,eeg,0,0
+592,prob4,prob4.vhdr                                                                      ,vhdr,0,0
+593,prob4,prob4.vmrk                                                                      ,vmrk,0,0
+594,prob6,prob6.eeg                                                                       ,eeg,0,0
+595,prob6,prob6.vhdr                                                                      ,vhdr,0,0
+596,prob6,prob6.vmrk                                                                      ,vmrk,0,0
+597,prob7,prob7.eeg                                                                       ,eeg,0,0
+598,prob7,prob7.vhdr                                                                      ,vhdr,0,0
+599,prob7,prob7.vmrk                                                                      ,vmrk,0,0
+600,prob8,prob8.eeg                                                                       ,eeg,0,0
+601,prob8,prob8.vhdr                                                                      ,vhdr,0,0
+602,prob8,prob8.vmrk                                                                      ,vmrk,0,0
+603,prob9,prob9.eeg                                                                       ,eeg,0,0
+604,prob9,prob9.vhdr                                                                      ,vhdr,0,0
+605,prob9,prob9.vmrk                                                                      ,vmrk,0,0
+606,t1,yakovlev 31_08_2016_t1.eeg                                                      ,eeg,0,yakovlev
+607,t1,yakovlev 31_08_2016_t1.vhdr                                                     ,vhdr,0,yakovlev
+608,t1,yakovlev 31_08_2016_t1.vmrk                                                     ,vmrk,0,yakovlev
+609,t2,yakovlev 31_08_2016_t2.eeg                                                      ,eeg,0,yakovlev
+610,t2,yakovlev 31_08_2016_t2.vhdr                                                     ,vhdr,0,yakovlev
+611,t2,yakovlev 31_08_2016_t2.vmrk                                                     ,vmrk,0,yakovlev
+612,t3,yakovlev 31_08_2016_t3.eeg                                                      ,eeg,0,yakovlev
+613,t3,yakovlev 31_08_2016_t3.vhdr                                                     ,vhdr,0,yakovlev
+614,t3,yakovlev 31_08_2016_t3.vmrk                                                     ,vmrk,0,yakovlev
+615,2016,Алексеенко 20_09_2016.docx   ,docx,0,Алексеенко
